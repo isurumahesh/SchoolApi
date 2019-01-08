@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApi", "SchoolApi\SchoolApi.csproj", "{F6B8FC17-A511-4D51-AF4B-46EAE68E66A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApiTest", "SchoolApiTest\SchoolApiTest.csproj", "{3F20429A-A143-4768-961F-ECF492707C8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{F6B8FC17-A511-4D51-AF4B-46EAE68E66A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6B8FC17-A511-4D51-AF4B-46EAE68E66A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6B8FC17-A511-4D51-AF4B-46EAE68E66A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F20429A-A143-4768-961F-ECF492707C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F20429A-A143-4768-961F-ECF492707C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F20429A-A143-4768-961F-ECF492707C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F20429A-A143-4768-961F-ECF492707C8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1984BE0F-BBDD-4A5E-8B19-19CEA24A15BC}
 	EndGlobalSection
 EndGlobal
