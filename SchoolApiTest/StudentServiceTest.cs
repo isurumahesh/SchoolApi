@@ -13,7 +13,7 @@ namespace SchoolApiTest
         [Test]
         public void Test_Addition()
         {
-            var number = 1;
+            var number = 2;
             Assert.AreEqual(1, number);
         }
     }
