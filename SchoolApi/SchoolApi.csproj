@@ -24,6 +24,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ApplicationInsightsResourceId>/subscriptions/ff95c4db-e78a-484c-84bc-3ae9120cb1e8/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/SchoolApi</ApplicationInsightsResourceId>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -172,6 +173,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\schoolvcc - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\schoolvcc - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
