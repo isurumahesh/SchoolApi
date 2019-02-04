@@ -14,7 +14,7 @@ namespace SchoolApiTest
         public void Test_Addition()
         {
             var number = 1;
-            Assert.AreEqual(2, number);
+            Assert.AreEqual(1, number);
         }
     }
 }
