@@ -18,7 +18,7 @@ namespace SchoolApi.Controllers
         
         public string Get()
         {
-            return "value";
+            return "value_x";
         }
 
         // POST api/values
